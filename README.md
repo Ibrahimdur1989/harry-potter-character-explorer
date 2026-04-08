@@ -19,4 +19,23 @@ The app displays Harry Potter characters using an API.
 3. Open `http://localhost:4200/`
 
 ## Screenshots
-Screenshots are included in the submission.
+
+### Home Page  
+![Home](screenshots/1-home.png)
+Displays all harry Potter characters fetched from the API.
+
+### Search Feature 
+![Search](screenshots/2-search.png)
+Shows filtering characters by typing a name in the search box.
+
+### Filter by House
+![Filter](screenshots/3-filter.png)
+Displays characters filtered by selected house (e.g., Slytherin).
+
+### Character Details
+![Details](screenshots/4-details.png)
+Shows detailed information when a character is selected.
+
+### Code Screenshots
+![Code](screenshots/5-code.png)
+Shows the implementation of Angular component and logic.
