@@ -3,7 +3,7 @@ Student: Ebrahim Al-Serri
 Student ID: 101085527
 
 ## Description
-This is an Angular application for Lab Test 2 in COMP3133.
+This is for Lab Test 2 in COMP3133.
 The app displays Harry Potter characters using an API. 
 
 ## Features
