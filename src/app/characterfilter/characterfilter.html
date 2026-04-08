@@ -1,5 +1,5 @@
 <div class="filter-container">
-    <met-form-field appearance="outline">
+    <mat-form-field appearance="outline">
         <mat-label>Filter by House: </mat-label>
         <mat-select [(ngModel)]="selectedHouse" (selectionChange)="onHouseChange()">
             <mat-option value="">All Houses</mat-option>
@@ -7,5 +7,5 @@
             <mat-option [value]="house">{{ house }}</mat-option>
             }
         </mat-select>
-    </met-form-field>
+    </mat-form-field>
 </div>

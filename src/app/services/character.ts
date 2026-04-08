@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { CharacterModel } from '../models/character.model';
 
 @Injectable({
   providedIn: 'root',
@@ -11,7 +12,7 @@ export class Character {
 
   constructor(private http: HttpClient) {}
 
-  getAllCharacters(): Observable<any> {
-    return this.http.get(this.apiUrl);
+  getAllCharacters(): Observable<CharacterModel[]> {
+    return this.http.get<CharacterModel[]>(this.apiUrl);
   }
 }

@@ -1,7 +1,7 @@
 export interface Wand {
     wood: string;
     core:string;
-    length: number | null;
+    length: number;
 }
 
 export interface CharacterModel {
@@ -9,9 +9,9 @@ export interface CharacterModel {
     name: string;
     species: string;
     house: string;
-    wizard: string;
+    wizard: boolean;
     ancestry: string;
     actor: string;
     image: string;
-    wand: string;
+    wand: Wand;
 }
