@@ -1,22 +1,73 @@
-# 101085527 Lab Test 2 Comp3133
-Student: Ebrahim Al-Serri
-Student ID: 101085527
+# Harry Potter Character Explorer
 
-## Description
-This is for Lab Test 2 in COMP3133.
-The app displays Harry Potter characters using an API. 
+An Angular web application that displays and filters Harry Potter characters using a public API.  
+The application allows users to browse characters, search by name, filter by house, and view detailed character information through a clean and responsive interface.
+
+---
 
 ## Features
-- Display all characters
-- Search characters by name
-- Filter characters by house (Gryffindor, Slytherin, etc.)
-- Show character details when clicked
-- Simple UI using Angular
 
-## How to Run
-1. Run `npm install`
-2. Run `ng serve`
-3. Open `http://localhost:4200/`
+- Display all Harry Potter characters
+- Real-time search functionality
+- Filter characters by Hogwarts house
+- Character detail view
+- Dynamic API data rendering
+- Responsive Angular UI
+- Angular Material integration
+- Component-based architecture
+
+---
+
+## Tech Stack
+
+- Angular
+- TypeScript
+- Angular Material
+- HTML
+- CSS
+- REST API
+
+---
+
+## API Used
+
+- https://hp-api.onrender.com/
+
+---
+
+## Live Demo
+
+(Add your Render or Vercel deployment link here)
+
+Example:
+
+https://your-project-name.onrender.com
+
+---
+
+## Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/harry-potter-character-explorer.git
+```
+2. Navigate to the project folder
+```bash
+cd harry-potter-character-explorer
+```
+3. Install dependencies
+```bash
+npm install
+```
+4. Run the application
+```bash
+ng serve
+```
+5. Open in browser
+```bash
+http://localhost:4200/
+```
 
 ## Screenshots
 
@@ -26,16 +77,49 @@ Displays all harry Potter characters fetched from the API.
 
 ### Search Feature 
 ![Search](screenshots/2-search.png)
-Shows filtering characters by typing a name in the search box.
+Allows users to search characters dynamically by name.
 
 ### Filter by House
 ![Filter](screenshots/3-filter.png)
-Displays characters filtered by selected house (e.g., Slytherin).
+Displays characters filtered by selected Hogwarts house (e.g., Slytherin).
 
 ### Character Details
 ![Details](screenshots/4-details.png)
-Shows detailed information when a character is selected.
+Shows detailed information about the selected character.
 
-### Code Screenshots
-![Code](screenshots/5-code.png)
-Shows the implementation of Angular component and logic.
+
+## Project Structure
+
+```text
+src/
+│
+├── app/
+│   ├── characterlist/
+│   ├── characterfilter/
+│   ├── characterdetails/
+│   ├── models/
+│   └── services/
+│
+├── assets/
+└── environments/
+```
+
+---
+
+## Features Improvements
+- Pagination support
+- Dark mode
+- Advanced filtering
+- Favorite characters system
+- Authentication
+- Improved responsive design
+
+
+---
+
+## Author
+
+### Ebrahim Al-Serri
+Computer Programming & Analysis - Graduate 2026
+
+George Brown College
