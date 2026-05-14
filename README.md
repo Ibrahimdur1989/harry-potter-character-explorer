@@ -40,7 +40,7 @@ The application allows users to browse characters, search by name, filter by hou
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/harry-potter-character-explorer.git
+git clone https://github.com/Ibrahimdur1989/harry-potter-character-explorer.git
 ```
 2. Navigate to the project folder
 ```bash
