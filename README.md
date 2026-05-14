@@ -35,16 +35,6 @@ The application allows users to browse characters, search by name, filter by hou
 
 ---
 
-## Live Demo
-
-(Add your Render or Vercel deployment link here)
-
-Example:
-
-https://your-project-name.onrender.com
-
----
-
 ## Installation & Setup
 
 1. Clone the repository
